@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  box-shadow: -1px 0px 15px #dab758;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1rem;
+    padding-right: 1.4rem; }
+
+.card {
+  opacity: 0.8;
+  margin-bottom: 1rem; }
+  .card .card-body {
+    opacity: 0.9;
+    box-shadow: 2px 2px 3px #a79a6f; }
+
+#home {
+  position: relative;
+  background: url(/img/hammer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 770px; }
+
+#home .capa-oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 770px;
+  background-color: rgba(40, 39, 36, 0.85); }
+
+#home .txt_home {
+  font-size: 1.2rem; }
+
+#home .txt__form {
+  color: #282724; }
+
+#home .contenido-home {
+  padding-top: 100px; }
+
+#home .fas {
+  color: #dab758;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px rgba(212, 196, 140, 0.45) solid; }
+
+.box {
+  position: relative; }
+
+.col-md-3 a {
+  text-decoration: none; }
+
+.box__icon {
+  display: inline;
+  padding: 0 0.25rem 0 0.25rem;
+  color: #dab758;
+  font-size: 2rem;
+  border-radius: 50%; }
+
+#servicio,
+#team {
+  background-color: #e7e5df; }
+
+#servicio h3 {
+  font-weight: 600; }
+
+#servicio p {
+  color: #282724; }
+
+#mision {
+  background-color: #333; }
+
+#mision p {
+  color: #e7e5df; }
+
+#team h5 {
+  color: #282724;
+  font-weight: 600; }
+#team h3 {
+  color: #282724; }
+#team p {
+  color: #282724; }
+#team img {
+  margin-top: -50px; }
+#team .card:hover,
+#team .card:active {
+  background: #dab758;
+  opacity: 1; }
+  #team .card:hover h5,
+  #team .card:active h5 {
+    color: #fff;
+    font-weight: 600; }
+  #team .card:hover h3,
+  #team .card:active h3 {
+    color: #fff; }
+  #team .card:hover p,
+  #team .card:active p {
+    color: #fff; }
+#team .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #home {
+    position: relative;
+    background: url(/img/hammer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 100%;
+    background-attachment: fixed;
+    min-height: 770px; }
+
+  .title__service {
+    font-size: 2.5rem; }
+
+  .p__service {
+    font-size: 1.25rem; }
+
+  .mb-res {
+    margin-bottom: 1rem; } }
