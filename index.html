@@ -56,7 +56,7 @@
             <li class="nav-item">
               <a href="#mision" class="nav-link">
                 <span data-toggle="collapse" data-target=".navbar-collapse.show"
-                  >Nuestra Mision</span
+                  >Nuestra Misión</span
                 >
               </a>
             </li>
@@ -136,35 +136,53 @@
                     respuesta orientativa sobre el servicio jurídico que
                     necesítas
                   </p>
-                  <form>
+                  <form
+                    action="https://formsubmit.co/6d4e045790b169232f1ca919cfbd42bb"
+                    method="POST"
+                  >
+                    <input type="text" name="_honey" style="display: none" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                      type="hidden"
+                      name="_next"
+                      value="http://127.0.0.1:5500/success.html"
+                    />
                     <div class="form-group p-1">
                       <input
                         type="text"
                         class="form-control form-control-lg"
+                        id="nombre"
                         placeholder="Nombre *"
                         required
+                        name="nombre"
                       />
                     </div>
                     <div class="form-group p-1">
                       <input
                         type="email"
                         class="form-control form-control-lg"
+                        id="email"
                         placeholder="Email *"
                         required
+                        name="email"
                       />
                     </div>
                     <div class="form-group p-1">
                       <input
                         type="number"
                         class="form-control form-control-lg"
+                        id="telefono"
                         placeholder="Telefono"
+                        name="telefono"
                       />
                     </div>
                     <div class="form-group p-1">
                       <textarea
                         class="form-control form-control-lg"
                         rows="3"
+                        id="asunto-legal"
                         placeholder="Cuentanos Sobre Tu Asunto Legal..."
+                        name="asunto"
                       ></textarea>
                     </div>
                     <input
@@ -274,7 +292,7 @@
         <div class="row">
           <div class="col">
             <div class="info-header mb-5 mt-3">
-              <h1 class="text-primary p-3 title__service">Nuestra Mision</h1>
+              <h1 class="text-primary p-3 title__service">Nuestra Misión</h1>
               <p class="lead pb-3px p__service">
                 Proporcionar un servicio de asesoramiento legal especializado
                 <br />
@@ -296,7 +314,7 @@
           <div class="col">
             <div class="info-header mb-5 mt-3">
               <h1 class="text-primary pb-3">
-                Conoce nuestro Equipo de Trabajo
+                Conoce nuestro equipo de trabajo
               </h1>
               <p class="lead">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
