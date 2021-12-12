@@ -21,7 +21,7 @@ body {
 
 #home {
   position: relative;
-  background: url(/img/hammer.jpg);
+  background: url(../img/hammer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
